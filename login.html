@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="card">
+
+        <h2>⚡ Electricity System Login</h2>
+
+       <form onsubmit="return goDashboard()">
+
+             <input type="email" placeholder="Email" required>
+
+    <br><br>
+
+    <input type="password" placeholder="Password" required>
+
+    <br><br>
+
+    <button type="submit">Login</button>
+
+ </form>
+
+    </div>
+
+    <script>
+function goDashboard() {
+    window.location.href = "dashboard.html";
+    return false;
+}
+</script>
+
+</body>
+
+</html>
